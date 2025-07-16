@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Université Mohammed V de Rabat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Logo" class="logo">
+    <h1 class="main-title">Université Mohammed V de Rabat</h1>
+    <h2 class="subtitle">Service des documents référentiels</h2>
+    <p class="instruction">Veuillez saisir le code au bas du document.</p>
+
+    <form class="form">
+      <label for="code" class="label">Code<span class="required">*</span></label>
+      <input type="text" id="code" name="code" class="input" placeholder="274ecdaa" required>
+
+      <p class="note">Tous les champs sont obligatoires</p>
+
+      <label class="label">Captcha<span class="required">*</span></label>
+      <div class="captcha-box">
+        <input type="checkbox" id="captcha">
+        <label for="captcha">Je ne suis pas un robot</label>
+        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA logo" class="recaptcha">
+        <p class="captcha-info">Confidentialité - Conditions</p>
+      </div>
+
+      <button type="submit" class="submit-button">Afficher</button>
+    </form>
+  </div>
+</body>
+</html>

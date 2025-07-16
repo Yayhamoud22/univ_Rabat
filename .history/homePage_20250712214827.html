@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Université Mohammed V de Rabat - Service des documents référentiels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 0;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        
+        .required-note {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        
+        .captcha-container input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Université Mohammed V de Rabat</h1>
+        <div class="subtitle">Service des documents référentiels</div>
+        
+        <p>Veuillez saisir le code au bas du document.</p>
+        
+        <div class="form-group">
+            <label for="code">Code*</label>
+            <input type="text" id="code" name="code" value="274ccdaa">
+        </div>
+        
+        <div class="required-note">Tous les champs sont obligatoires</div>
+        
+        <div class="form-group">
+            <label for="captcha">Captcha*</label>
+            <div class="captcha-container">
+                <input type="checkbox" id="captcha" name="captcha">
+                <label for="captcha" style="font-weight: normal; margin-bottom: 0;">Je ne suis pas un robot</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

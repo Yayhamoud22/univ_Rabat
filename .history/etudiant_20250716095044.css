@@ -1,0 +1,106 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    height: 100px;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 22px;
+    margin: 10px 0 5px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    margin-top: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .row {
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+  }
+  
+  .row.grey {
+    background-color: #f3f3f3;
+  }
+  
+  .row label {
+    font-weight: bold;
+    display: block;
+    font-size: 13px;
+  }
+  
+  .row p {
+    margin: 4px 0 0;
+    font-size: 14px;
+  }
+  
+  .file-box {
+    border: 2px dashed #999;
+    padding: 20px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fafafa;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0a53be;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: #084bb8;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .file-box {
+      font-size: 12px;
+    }
+  
+    .download-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
